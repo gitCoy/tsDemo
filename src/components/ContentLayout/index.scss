@@ -1,0 +1,30 @@
+.content-layout {
+  position: relative;
+  display: flex;
+  max-width: 880px;
+  margin: 40px auto;
+}
+.content-nav {
+  position: sticky;
+  top: 100px;
+  height: 100%;
+  
+  li {
+    width: 200px;
+    margin-bottom: 6px;
+
+    a {
+      display: inline-block;
+      font-size: 14px;
+      color: #242424;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.content-wrap {
+  flex: 1;
+}

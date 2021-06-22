@@ -1,0 +1,17 @@
+@import '../../styles/_variables.scss';
+
+.header-wrap {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: $bg-color-primary;
+  height: 60px;
+  padding-left: $layout-padding;
+  z-index: 2;
+
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    line-height: 2.5;
+  }
+}
