@@ -230,7 +230,7 @@ function Home() {
         <p>5. 常量枚举表达式做为二元运算符 +, -, *, /, %, &lt;&lt;, &gt;&gt;, &gt;&gt;&gt;, &, |, ^的操作对象。 若常数枚举表达式求值后为 NaN或 Infinity，则会在编译阶段报错。</p>
         <p>所有其它情况的枚举成员被当作是需要计算得出的值。</p>
         <Title titleType="h3">联合枚举与枚举成员的类型</Title>
-        <p></p>
+        <p>test</p>
       </ContentLayout>
     </div>
   )
